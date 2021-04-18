@@ -1,5 +1,5 @@
 .heading{
-    padding: 100px;
+    padding: 50px;
     background-image: url('../images/h_img.jpg');
     background-size: cover;
     text-align: center;
@@ -9,8 +9,31 @@ h1{
     color: white;
     font-weight: 700;
 }
+h6{
+    text-align: center;
+    color:white;
+    font-style: italic;
+    font-weight: 100;
+}
+.fs10{
+    font-size: 10px;
+}
+.fs11{
+    font-size: 11px;
+}
+.fs14{
+    font-size: 14;
+}
+.fs18{
+    font-size: 18px;
+}
+h2{
+    text-align: center;
+    color: black;
+    font-weight: 175;
+    font-style: oblique;
+}
 p{
     text-align: center;
-    color: white;
-    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
