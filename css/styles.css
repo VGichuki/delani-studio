@@ -1,5 +1,5 @@
 .heading{
-    padding: 75px;
+    padding: 40px;
     background-image: url('../images/h_img.jpg');
     background-size: cover;
     text-align: center;
@@ -30,7 +30,7 @@ h6{
 h2{
     text-align: center;
     color: black;
-    font-weight: 175;
+    font-weight: 175px;
     font-style: oblique;
 }
 p{
@@ -39,7 +39,7 @@ p{
 }
 .services{
     background-image: url('../images/s_image.jpg');
-    padding: 50px;
+    padding: 35px;
     background-size: cover;
 }
 h3{
@@ -49,4 +49,20 @@ h3{
 }
 .paragraph{
     color: whitesmoke;
+}
+h4{
+    text-align: center;
+    font-style: oblique;
+    font-weight: 200px;
+}
+.design{
+    float: left;
+}
+.development{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.product{
+    float: right;
 }
