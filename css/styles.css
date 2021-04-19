@@ -99,3 +99,50 @@ h4{
     width: 800px;
     padding: 5%;
   }
+  .icon {
+    text-align: center;
+  }
+  
+  .prjct {
+    opacity: 0.6;
+    position: absolute;
+    box-sizing: border-box;
+    border: 7px solid black;
+    width: 90%;
+    height: 100%;
+    color:red;
+    display: none;
+    top: 1px;
+    z-index: 2;
+    padding: 10%;
+    
+  }
+  
+  .prjct:hover {
+    opacity: 0.2;
+    filter: Alpha(opacity=50);
+    
+  }
+  
+  .disc1:hover .prjct {
+    opacity: 0.7;
+    display: inline;
+    background-color:white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px
+    
+  }
+  
+  #portfolio {
+    margin: 10px;
+    padding: 7%;
+  }
+.para1,
+.para2,
+.para3 {
+  display: none;
+}
+.img1 {
+    position: relative;
+  }
