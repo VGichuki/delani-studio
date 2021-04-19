@@ -55,32 +55,23 @@ h4{
     font-style: oblique;
     font-weight: 200px;
 }
- .design{
-     float: left;
-}
-.development{
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
- }
-.product{
-    float: right;
-}  
-.design-hidden{
-    display: none;
-}
-.clickable {
-    cursor: pointer;
-    color: #0088cc;
-  }
- .clickable:hover {
-    text-decoration: underline;
-  }
 .footer{
     background-image: url("../images/c_image.jpg");
     background-size: cover;
-    padding: 60px;
+    padding: 200px;
 }
 .socials{
     text-align: center;
 }
+#what-we-do {
+    text-align: center;
+    padding: 7%;
+  }
+  
+  .we-do {
+    display: flex;
+  }
+  
+  .do {
+    text-align: center;
+  }
