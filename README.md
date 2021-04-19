@@ -1,4 +1,3 @@
-A good README template to use:
 # Delani studio
 Project entails boilerplate code for MPFT41/42 morning stand up session on remote repositories. Languages used are HTML,Custom CSS, JavaScript and Jquery.
 ## Prerequisites
