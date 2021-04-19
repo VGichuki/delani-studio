@@ -52,11 +52,7 @@ $(document).ready(function () {
     alert(user + " your message has been recieved successfully and thanks for keeping in touch");
 
   });
-  $(".prjct").hide();
-  $("pjct").animate({opacity:0.2}, 1000);
-  $(".pic1").hover(function () {
-    $(this).find(".prjct").toggle(400);
-  });
+
 
 });
 
