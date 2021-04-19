@@ -1,4 +1,28 @@
 $(document).ready(function () {
+    $(".img1").click(function () {
+        $(".img1").toggle(function () {
+          $(".para1", ).show(function () {
+            $("#h3a").css('font-weight', 'bold');
+          });
+        });
+      });
+    
+      $(".img2").click(function () {
+        $(".img2").toggle(function () {
+          $(".para2").show(function () {
+            $("#h3b").css('font-weight', 'bold');
+          });
+        });
+      });
+    
+      $(".img3").click(function () {
+        $(".img3").toggle(function () {
+          $(".para3").show(function () {
+            $("#h3c").css('font-weight', 'bold');
+          });
+        });
+      });
+
   $(".para1").click(function () {
     $(".para1").toggle(function () {
       $(".img1").show(function () {
@@ -28,7 +52,15 @@ $(document).ready(function () {
     alert(user + " your message has been recieved successfully and thanks for keeping in touch");
 
   });
+  $(".prjct").hide();
+  $("pjct").animate({opacity:0.2}, 1000);
+  $(".pic1").hover(function () {
+    $(this).find(".prjct").toggle(400);
+  });
+
 });
+
+
 
 
 
