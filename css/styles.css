@@ -1,5 +1,5 @@
 .heading{
-    padding: 40px;
+    padding: 35px;
     background-image: url('../images/h_img.jpg');
     background-size: cover;
     text-align: center;
@@ -79,5 +79,8 @@ h4{
 .footer{
     background-image: url("../images/c_image.jpg");
     background-size: cover;
-    padding: 40px;
+    padding: 60px;
+}
+.socials{
+    text-align: center;
 }
